@@ -1,0 +1,70 @@
+/* styles.css */
+body {
+    background-color: #141414;
+    color: #ffffff;
+    font-family: Arial, sans-serif;
+}
+
+.banner {
+    background-image: url('Login&Signup/img/background.jpg');
+    opacity: 0.66;
+    background-size: cover;
+    background-position: center;
+    height: 500px;
+}
+
+.card {
+    margin-bottom: 20px;
+}
+
+.text-white{
+    color: white;
+    /* font-size: 40px; */
+}
+
+.welcome{
+    position: relative;
+    z-index: 1;
+}
+
+
+.scroll-container {
+    overflow-x: scroll; 
+    overflow-y: hidden;
+    white-space: nowrap; 
+    scroll-behavior: smooth;
+    width: 100%;
+}
+
+.scroll-container::-webkit-scrollbar {
+    display: none;
+}
+.scroll-content {
+    display: inline-flex; 
+    animation: scroll 20s linear infinite;
+}
+
+.movie-card {
+    display: inline-block;
+    background-color: #000;
+    color: #fff;
+    margin-right: 10px; 
+    width: 200px;
+    text-align: center;
+    padding: 10px;
+}
+
+.movie-card img {
+    width: 100%; 
+    border-radius: 5px;
+}
+
+.bg{
+    background-color:#000000a8;
+    border-radius: 7px;
+    padding: 50px;
+}
+
+
+
+

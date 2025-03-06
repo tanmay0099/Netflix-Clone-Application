@@ -1,0 +1,33 @@
+body {
+    background-color: #fff;
+    color: #333;
+}
+
+.card {
+    background-color: #fff;
+    border: none;
+}
+
+.form-control {
+    background-color: #fdfbfb;
+    color: #333
+    /* border : none; */
+}
+
+.form-control::placeholder {
+    color: #aaa;
+}
+
+.btn-danger {
+    background-color: #e50914;
+    border: none;
+}
+
+.btn-danger:hover {
+    background-color: #f40612;
+}
+
+a:hover {
+    color: rgb(38, 38, 38);
+    text-decoration: none;
+}
